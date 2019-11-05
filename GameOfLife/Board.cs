@@ -113,7 +113,7 @@ namespace GameOfLife
                 {
                     if (this.alive.Contains(new Cell(x, y)))
                     {
-                        board.Append("o");
+                        board.Append("a");
                     }
                     else
                     {
